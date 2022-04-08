@@ -1,15 +1,12 @@
 let trim = function(){
- console.log('The result after trimming the string is :' + ' functionUp batch  '.trim() + '.')
+    console.log('The result after trimming the string is:'+'      functionup batch   '.trim()+ '.')
 }
-
-let changetoLowerCase = function() {
-    console.log('The result after using toLowerCase function is :', 'SAbIHa'.toLowerCase())
+let changetoLowercase=  function(){
+    console.log('the result after using to lowercase function is :','AnKIT'.toLowerCase())
 }
-
-let changeToUpperCase = function() {
-    console.log('The result after using toUpperCase function is ', 'uraNium'.toUpperCase())    
+let changeToUpperCase= function(){
+    console.log('the result after using to upper case function is: ', 'ankitG996'.toUpperCase())
 }
-
-module.exports.trimString = trim
-module.exports.changeCaseToLower = changetoLowerCase
-module.exports.changeCaseToUpper = changeToUpperCase
+module.exports.trim=trim
+module.exports.changetoLowercase = changetoLowercase
+module.exports.changeToUpperCase = changeToUpperCase
